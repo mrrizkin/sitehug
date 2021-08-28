@@ -1,3 +1,53 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "http://nugrhrizki.github.io/"
+DefaultContentLanguage = "en" # Theme's display language, supports: en, fr, zh, zh-hant
+languageCode = "en-us"
+title = "Rizki Nugraha"
+copyright = "MIT"
+theme = "diary"
+
+enableAutoDarkMode = true
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "native"
+    tabWidth = 2
+
+[params]
+subtitle = "Web Developer"
+favicon = "https://avatars.githubusercontent.com/u/46787877?s=400&u=0676039d1fde344fc8d5b950eac9034ef55a5b26&v=4"
+enableReadingTime=true
+googleSearchCode = "401a26dff1e8ad0f0"
+
+# Twitter Card and Open Graph settings
+enableOpenGraph = true
+enableTwitterCards = true
+title = "Rizki Nugraha" # will set 'og:site_name'
+description = "My HomePage Description"  # will set 'og:description'
+
+[taxonomies]
+   tag = "tags"
+   category = "categories"
+
+[[menu.main]]
+url = "/categories"
+name = "Categories"
+weight = 2
+[[menu.main]]
+url = "/tags"
+name = "Tags"
+weight = 3
+[[menu.main]]
+url = "/posts"
+name = "Archive"
+weight = 1
+[[menu.main]]
+url = "/index.xml"
+name = "RSS Feed"
+weight = 4
