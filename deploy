@@ -3,7 +3,7 @@
 if [[ ! -f './deploy' || ! -f './config.toml' ]]; then
 	echo "please sit on the hugo root folder"
 	exit 1
-else
+fi
 
 [ -d 'public' ] && /bin/rm public/* -rf
 
