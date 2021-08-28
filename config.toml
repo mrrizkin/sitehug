@@ -1,5 +1,5 @@
 baseURL = "https://nugrhrizki.github.io/"
-DefaultContentLanguage = "en" # Theme's display language, supports: en, fr, zh, zh-hant
+DefaultContentLanguage = "en"
 languageCode = "en-us"
 title = "Rizki Nugraha"
 copyright = "MIT"
@@ -28,8 +28,8 @@ googleSearchCode = "401a26dff1e8ad0f0"
 # Twitter Card and Open Graph settings
 enableOpenGraph = true
 enableTwitterCards = true
-title = "Rizki Nugraha" # will set 'og:site_name'
-description = "My HomePage Description"  # will set 'og:description'
+title = "Rizki Nugraha"
+description = "My HomePage Description"
 
 [taxonomies]
    tag = "tags"
