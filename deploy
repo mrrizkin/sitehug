@@ -1,0 +1,12 @@
+#! /usr/bin/env bash
+
+if [[ ! -f './deploy' || ! -f './config.toml' ]]; then
+	echo "please sit on the hugo root folder"
+	exit 1
+else
+
+[ -d 'public' ] && /bin/rm public/* -rf
+
+hugo
+
+cd 'public' && git status && git add . && git commit -m "repos updated by deploy script at $(date)" && git push origin main
