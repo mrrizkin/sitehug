@@ -1,3 +1,6 @@
 [submodule "themes/diary"]
 	path = themes/diary
 	url = https://github.com/AmazingRise/hugo-theme-diary.git
+[submodule "public"]
+	path = public
+	url = git@github.com:nugrhrizki/nugrhrizki.github.io.git
