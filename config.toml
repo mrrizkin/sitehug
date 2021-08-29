@@ -5,8 +5,6 @@ title = "Rizki Nugraha"
 copyright = "MIT"
 theme = "diary"
 
-enableAutoDarkMode = true
-
 [markup]
   [markup.highlight]
     codeFences = true
@@ -20,16 +18,16 @@ enableAutoDarkMode = true
     tabWidth = 2
 
 [params]
-subtitle = "Web Developer"
+subtitle = "Robot - Linux - others"
 favicon = "https://avatars.githubusercontent.com/u/46787877?s=400&u=0676039d1fde344fc8d5b950eac9034ef55a5b26&v=4"
 enableReadingTime=true
-googleSearchCode = "401a26dff1e8ad0f0"
+enableAutoDarkMode = true
 
 # Twitter Card and Open Graph settings
 enableOpenGraph = true
 enableTwitterCards = true
 title = "Rizki Nugraha"
-description = "My HomePage Description"
+description = "Rizki Nugraha Blog about Programming, Linux, Electrical and other things he is interested in"
 
 [taxonomies]
    tag = "tags"
