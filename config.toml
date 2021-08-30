@@ -18,7 +18,7 @@ theme = "diary"
     tabWidth = 2
 
 [params]
-subtitle = "Robot - Linux - others"
+subtitle = "Robotic - Linux - others"
 favicon = "https://avatars.githubusercontent.com/u/46787877?s=400&u=0676039d1fde344fc8d5b950eac9034ef55a5b26&v=4"
 enableReadingTime=true
 enableAutoDarkMode = true
